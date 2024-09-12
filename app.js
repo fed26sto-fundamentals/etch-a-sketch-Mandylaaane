@@ -1,33 +1,8 @@
 //Create a webpage with a 16x16 grid of square divs.
 
-document.addEventListener('DOMContentLoaded', () => {
-    const gridContainer = document.getElementById('grid-container');
-    
-    for (let i = 0; i < 256; i++) {
-        const cell = document.createElement('div');
-        cell.classList.add('grid-cell');
-        gridContainer.appendChild(cell);
-    }
-});
-
-//Create borders and colors
 
 
-
-
-
-//Grid created? CSS linked? Check browser dev tools for errors.
-
-
-
-
-
-//Check elements panel, have elements shown up but are somehow hidden?
-
-
-
-
-//Add console.log statements in your JavaScript, check if loaded.
+//Create borders and colors (later in CSS)
 
 
 
