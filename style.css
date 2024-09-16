@@ -1,6 +1,42 @@
+.flex-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: 
+}
+
+
 .board {
     width: 1000px;
     height: 1000px;
     display: grid;
 
 }
+
+.board:hover {
+
+
+}
+
+.content {
+
+
+}
+
+
+.title: {
+
+
+}
+
+.buttons {
+
+}
+
+button {
+
+
+}
+
