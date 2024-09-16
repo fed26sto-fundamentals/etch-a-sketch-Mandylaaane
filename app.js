@@ -21,6 +21,7 @@ function populateBoard(size) {
 
 populateBoard(16);
 
+//MIN-MAX NR SQUARES OF BOARD
 
 function changeSize(input) {
     if (input >=2 && input <=100 ) {

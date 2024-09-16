@@ -4,39 +4,53 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: 
 }
 
-
 .board {
-    width: 1000px;
-    height: 1000px;
+    width: 100%;
+    height: 100%;
     display: grid;
-
 }
 
 .board:hover {
-
-
+    cursor: pointer;
 }
 
 .content {
-
-
+    grid-area: "game-content";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+    width: 60vw;
+    height: 60vw;
+    max-width: 600px;
+    max-height: 600px;
 }
 
-
-.title: {
-
-
+.title {
+    display: flex;
+    justify-content: center;
 }
 
 .buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
 button {
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
 
+}
 
+button:hover {
+    cursor: pointer;
 }
 
